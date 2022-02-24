@@ -1,8 +1,8 @@
-::-webkit-scrollbar-track {
+-webkit-scrollbar-track {
   opacity :0;
 }
 
-::-webkit-scrollbar-thumb {
+-webkit-scrollbar-thumb {
   background: whitesmoke;
 }
 
