@@ -6,14 +6,21 @@ body {
     background-repeat: repeat;
     background-attachment: fixed;
     font-family:'Lato', sans-serif;
+
+    
  
    }
 
+#extra{
+    font-size : 50px;
+}
 
 
 .container{
     width : 30%;
-    min-width : 370px;   
+    min-width : 350px;
+    height : 210px;
+    
     position : relative;
     justify-self : center;
     padding: 1% 2% 2% 2%;
@@ -27,16 +34,18 @@ body {
 }
 
 
+
+
 .greeting_space{
     width : 100%;
-    min-width : 370px;
+    min-width : 350px;
     justify-content : center;
 }
 
 
 /*Header Text*/
 .greeting{
-    font-size: 70px;
+    font-size: 50px;
     color: burlywood;
     font-family : 'arial';
     
@@ -112,7 +121,7 @@ body {
 
 
 h2{
-    font-size: 30px;
+    font-size: 25px;
     color: burlywood;
     position : relative;
 }
@@ -123,7 +132,8 @@ h2{
 }
 
 .project_name {
-    font-size:20px;
+    font-size:18px;
+    font-weight : bold;
     
     color: palevioletred;
 }
@@ -151,11 +161,12 @@ footer {
     position : fixed;
     bottom: 0px;
     width: 99%;
-    min-width : 450px;
+    min-width : 350px;
     height: 7%;
     color:rgb(196, 163, 121);
     justify-content: center;
     justify-self : center;
+    font-size : 13px;
 
     background-image: url("doughnut.png");
     background-color: whitesmoke;
