@@ -12,7 +12,8 @@ body {
 
 
 .container{
-    width : 30%;   
+    width : 30%;
+    min-width : 450px;   
     position : relative;
     justify-self : center;
     padding: 1% 2% 2% 2%;
@@ -25,14 +26,23 @@ body {
     border: 1px darksalmon dashed;
 }
 
+
+.greeting_space{
+    width : 100%;
+    min-width : 450px;
+    justify-content : center;
+}
+
+
 /*Header Text*/
 .greeting{
     font-size: 70px;
     color: burlywood;
     font-family : 'arial';
     
-    margin-top: 5%;
-    display:flex;
+    
+    margin-top : 5%;
+    display : flex;
     justify-content:center;
 }
 
@@ -115,7 +125,7 @@ h2{
 .project_name {
     font-size:20px;
     
-    color: burlywood;
+    color: palevioletred;
 }
 
 .project_name :hover{
@@ -138,12 +148,14 @@ a{
 
 
 footer {
-    position: absolute;
-    bottom: 0;
+    position : fixed;
+    bottom: 0px;
     width: 99%;
+    min-width : 450px;
     height: 7%;
     color:rgb(196, 163, 121);
     justify-content: center;
+    justify-self : center;
 
     background-image: url("doughnut.png");
     background-color: whitesmoke;
