@@ -1,10 +1,3 @@
--webkit-scrollbar-track {
-  opacity :0;
-}
-
--webkit-scrollbar-thumb {
-  background: whitesmoke;
-}
 
 body {
     /*
@@ -29,6 +22,7 @@ h1 {
 
 .container {
     margin-top : 5%;
+    margin-bottom : 5%;
  
     display:grid;
     grid-template-columns: repeat(4,220px);
@@ -44,7 +38,7 @@ h1 {
     background-color: black;
     background-position: center;
     opacity: 0.8;
-    border : 10px #050505;
+    
 
 }
 
@@ -53,7 +47,31 @@ h1 {
     height:170px;
     object-fit : cover;
     border-radius: 50%;
-    background-color: black;
-    background-size: cover;
+    /*background-color: black;
+    background-size: cover;*/
     opacity: 0.7;
+
+}
+
+#momom img{
+    width : 170px;
+    height:170px;
+    object-fit : cover;
+    border-radius: 50%;
+    background-color: black;
+    background-position: center;
+    opacity: 0.7;
+    
+}
+
+
+#momom :hover{
+    width : 170px;
+    height:170px;
+    object-fit : cover;
+    border-radius: 50%;
+    /*background-color: black;
+    background-position: center;*/
+    opacity: 0.6;
+    
 }
