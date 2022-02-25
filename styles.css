@@ -13,7 +13,7 @@ body {
 
 .container{
     width : 30%;
-    min-width : 450px;   
+    min-width : 370px;   
     position : relative;
     justify-self : center;
     padding: 1% 2% 2% 2%;
@@ -29,7 +29,7 @@ body {
 
 .greeting_space{
     width : 100%;
-    min-width : 450px;
+    min-width : 370px;
     justify-content : center;
 }
 
