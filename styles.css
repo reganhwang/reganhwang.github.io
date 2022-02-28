@@ -25,8 +25,7 @@ body {
     justify-self : center;
     padding: 1% 2% 2% 2%;
     
-    margin-top : 1%;
-    margin-bottom : 1%;
+    margin-top: 1vh;
 
     background-color:rgba(245, 245, 245, 0.4);
     border-radius : 10px;
@@ -40,6 +39,7 @@ body {
     width : 100%;
     min-width : 350px;
     justify-content : center;
+    min-height: 7vh;
 }
 
 
