@@ -11,9 +11,14 @@ body {
    
 }
 
+.h1space{
+    height : 15vh;
+    align-items : center;
+}
+
 h1 {
-    margin-top: 7%;
-    font-size: 32px;
+    margin-top: 10vh;
+    font-size: 3.5vw;
     font-family:arial;
     text-align: center;
     color:whitesmoke;
@@ -25,53 +30,61 @@ h1 {
     margin-bottom : 5%;
  
     display:grid;
-    grid-template-columns: repeat(4,220px);
-    grid-template-rows: repeat(5, 220px);
+    grid-template-columns: repeat(4,auto);
+    grid-template-rows: repeat(5, auto);
+
     justify-content: center;
+    align-content: center;
 
 }
+
+
 .element img{
-    width : 170px;
-    height:170px;
+    width : 65px;
+    height : 65px;
+    min-width : 12vw;
+    min-height : 12vw;
+    margin: 1.5vw 1.5vw 1.5vw 1.5vw;
     object-fit : cover;
     border-radius: 50%;
     background-color: black;
     background-position: center;
     opacity: 0.8;
+    position : relative;
     
 
 }
 
 .element :hover{
-    width : 170px;
-    height:170px;
+    /*
+    width : 20vw;
+    height:20vw;
     object-fit : cover;
     border-radius: 50%;
-    /*background-color: black;
+    background-color: black;
     background-size: cover;*/
     opacity: 0.7;
 
 }
 
 #momom img{
-    width : 170px;
-    height:170px;
-    object-fit : cover;
-    border-radius: 50%;
-    background-color: black;
-    background-position: center;
+
     opacity: 0.7;
     
 }
 
 
 #momom :hover{
+    /*
     width : 170px;
     height:170px;
     object-fit : cover;
     border-radius: 50%;
-    /*background-color: black;
+    background-color: black;
     background-position: center;*/
     opacity: 0.6;
     
+}
+.overlay {
+
 }
