@@ -180,9 +180,9 @@ body{
 
 .event1{
 
-    height : 30vh;
+    height : 40vh;
     display : grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 20% 80%;
     width : 93%;
     background-color : rgba(99,3,150,0.2);
     border-style : solid;
@@ -199,9 +199,9 @@ body{
 .event2{
 
     padding : 1vh 1vw 1vh 1vw;
-    height : 30vh;
+    height : 40vh;
     display : grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 20% 80%;
     width : 93%;
     background-color : rgba(255,215,0,0.3);
     border-style : solid;
@@ -251,6 +251,7 @@ body{
     font-size : 2vh;
     font-family : 'Alata', sans-serif;
     color : white;
+    text-decoration : none;
     align-self : start;
     
     background-color : purple;
@@ -260,7 +261,7 @@ body{
     
 }
 #hoppersHeader{
-    height : 30vh;
+    height : 40vh;
     display : grid;
     grid-template-columns: repeat(2,50%);
     width : 98%;
@@ -351,6 +352,7 @@ body{
     padding : 1vh 2vw 1vh 2vw;
     border-radius : 10px;
     font-size : 2vh;
+    text-decoration : none;
 }
 
 .midBox{
@@ -368,13 +370,14 @@ body{
 }
 
 .hoppersLogoSchedule{
-    width : 80px;
-    height :auto;
+    height : 80px;
+    width : auto;
     opacity : 0.8;
 }
 
 #hoppersHeader .hoppersLogoSchedule{
     width : 200px;
+    height : auto;
 }
 
 .hoppersEvent .eventTitle {
@@ -382,7 +385,7 @@ body{
 }
 
 
-#hands{
+.hands{
     /*width : 100%;
     max-width : 270px;*/
     width : 150px;
@@ -397,31 +400,31 @@ body{
 }
 
 .wibLogoSchedule{
-    height : auto;
-    width : 80px;
+    height : 80px; 
+    width : auto;
     opacity : 0.8;
 }
 .wpirLogoSchedule{
     
-    width : 80px;
+    height : 80px;
     border-radius : 50%;
-    height :auto;
+    width :auto;
     opacity : 1;
 }
 .wilLogoSchedule{
-    width : 80px;
+    height : 80px;
     /*max-width : 150px;*/
     border-radius : 50%;
-    height :auto;
+    width : auto;
     opacity : 1;
 }
 
 .wistemLogoSchedule{
     /*width : 100%;
     max-width : 150px;*/
-    width : 80px;
+    height : 80px;
     border-radius : 50%;
-    height :auto;
+    width : auto;
     opacity : 0.7;
 
 }
@@ -455,10 +458,7 @@ body{
     .eventDesc{
         font-size : 1.3vh;
     }
-    .wibLogoSchedule{
-        width : 80px;
-        /*width : 20vw*/
-    }
+    
 
     .event1{
         display : flex;
