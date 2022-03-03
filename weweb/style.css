@@ -265,11 +265,11 @@ body{
 */
 
 .hoppersEvent {
-    height : 15vh;
+    height : 10vh;
     display : grid;
     grid-template-columns : 10% 80% 10%;
     width : 99%;
-    background-color : rgba(99,3,150,0.6);
+
     align-self : center;
     border-radius : 10px;
     margin-top : 1vh;
@@ -277,29 +277,27 @@ body{
    
 }
 
-.hoppersEvent2 {
-    height : 15vh;
-    display : grid;
-    grid-template-columns : 10% 80% 10%;
-    width : 99%;
-    background-color : gold;
-    align-self : center;
-    border-radius : 10px;
-    margin-top : 1vh;
-    margin-bottom : 1vh;
-   
+.hE1 {
+    background-color : rgba(99,3,150,0.6);
+}
+
+.hE2 {
+    background-color :gold;
 }
 .time{
     color : white;
-    font-size : 15px;
+    font-size : 1.5vh;
     text-align : center;
     align-self : center;
 }
 
-.eventDesc{
+.midBox{
     background-color : white;
     text-align : center;
+    justify-content : center;
     align-content : center;
+    display : flex;
+    flex-direction : column;
 }
 
 .hoppersLogoSchedule{
@@ -307,6 +305,10 @@ body{
     max-width : 270px;
     height :auto;
     opacity : 0.8;
+}
+
+.hoppersEvent .eventTitle {
+    color : rgb(90, 90, 90);
 }
 
 
@@ -346,19 +348,6 @@ body{
     opacity : 0.7;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media screen and (max-width : 600px){
     #buttonCont{
