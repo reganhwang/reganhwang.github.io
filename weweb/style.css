@@ -145,9 +145,13 @@ body{
 }
 
 #friBox{
-    display:flex;
+    display : none;
     flex-direction : column;
-    display:none;
+    justify-content: center;
+    align-content : center;
+    justify-self : center;
+    align-self : center;
+    margin-top : 15%; 
 }
 
 #satBox{
@@ -294,6 +298,12 @@ body{
 .hE2 {
     background-color :gold;
 }
+
+.hoppersEvent .a {
+    color : purple;
+}
+
+
 .time{
     color : white;
     font-size : 1.5vh;
@@ -313,6 +323,15 @@ body{
     text-align : center;
     font-size : 2vh;
     align-self : center;
+}
+
+#longreg{
+    background-color : purple;
+    text-align : center;
+    color : white;
+    padding : 1vh 2vw 1vh 2vw;
+    border-radius : 10px;
+    font-size : 2vh;
 }
 
 .midBox{
@@ -348,13 +367,18 @@ body{
     opacity : 1;
 
 }
+#eifriday{
+    align-items : center;
+    justify-items : center;
+    height : 40vh;
+}
 
 .wibLogoSchedule{
     height : auto;
     width : 8vw;
     opacity : 0.8;
 }
-#wpirLogoSchedule{
+.wpirLogoSchedule{
     width : 100%;
     max-width : 150px;
     border-radius : 50%;
@@ -396,16 +420,7 @@ body{
         border-radius : 8px;
     }
   
-    #longreg{
-        width : 95vw;
-        max-width : 800px;
-        text-align: center;
-        align-self : center;
-        align-content : center;
-        justify-self : center;
-        margin-left : 50%;
-        background-color : purple;
-    }
+
     
     .time{
         font-size : 10px;
