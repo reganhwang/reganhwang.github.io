@@ -306,7 +306,7 @@ body{
 .eventDesc{
     display : none;
     font-weight : thin;
-    color : rgb(90, 90, 90);
+    color : black;
     font-size : 2vh;
 }
 
