@@ -13,7 +13,7 @@ body{
     /*align-items: center;*/
     display : flex;
     justify-content : center;
-    color : rgb(90,90,90);
+    color : black;
     margin-bottom : 10vh;
     
 }
