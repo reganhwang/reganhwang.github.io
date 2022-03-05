@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+body{
+    font-family:'Lato', sans-serif;
+    display : flex;
+    flex-direction : column;
+    background-image : url("pinkdot.png");
+    background-repeat : repeat;
+
+}
+
+.content{
+    
+    margin-top : 10vh;
+    height : 70vh;
+    display : grid;
+    grid-template-rows : 20% 80%;
+    justify-content : center;
+    align-items : center;
+    align-self : center;
+}
+
+
+.greeting{
+    font-size: 70px;
+    color: burlywood;
+    font-family : 'arial';
+    
+    display : flex;
+    justify-content : center;
+    align-self : end;
+    
+}
+
+.container{
+    width : 90%;
+    max-width : 500px;
+    background-color : rgba(245,245,245,0.4);
+    border-radius : 10px;
+    border : 1px darksalmon dashed;
+    justify-self : center;
+    text-align : center;
+    padding : 2vh 2vw 2vh 2vw;
+}
+
+h2 {
+    color : burlywood;
+    font-size : 30px;
+}
+
+.project {
+    margin : 1vh 1vh;
+}
+
+
+a {
+    color : palevioletred;
+    text-decoration : none;
+}
+
+
+.project_name {
+    font-size:20px;
+    
+    color: palevioletred;
+}
+
+.project_name :hover{
+    font-weight:bold;
+    color: rgb(167, 109, 128);
+}
+
+
+.project_desc{
+    color : rgb(63, 63, 63);
+    font-size : 15px;
+    margin : 1% 1%;
+}
+
+.project_desc a{
+    color : gray;
+    font-style : italic;
+}
+
+#extra{
+    font-size : 12px;
+}
+
+footer{
+    position : fixed;
+    bottom : 0px;
+    width : 300px;
+    min-width : 98vw;
+    color:rgb(196, 163, 121);
+    justify-self : center;
+
+
+    height : 7%;
+    background-repeat: repeat;
+
+    display : flex;
+    flex-direction : row;
+
+    justify-content : center;
+    align-items : center;
+
+    text-align : center;
+
+    font-size : 12px;
+    
+    background-image : url("doughnut.png");
+    background-repeat : repeat;
+   
+}
+
+/*Header Animation*/
+.w {
+    animation: bounce 1.5s ease infinite;
+    -webkit-animation: bounce 1.5s ease infinite;
+   
+}
+  
+.e1 {
+    animation: bounce 1.5s ease infinite .1s;
+    -webkit-animation: bounce 1.5s ease infinite .1s;
+
+}
+  
+.l {
+    animation: bounce 1.5s ease infinite .2s;
+    -webkit-animation: bounce 1.5s ease infinite .2s;
+  
+}
+ 
+.c {
+    animation: bounce 1.5s ease infinite .3s;
+    -webkit-animation: bounce 1.5s ease infinite .3s;
+
+}
+  
+.o {
+    animation: bounce 1.5s ease infinite .45s;
+    -webkit-animation: bounce 1.5s ease infinite .45s;
+ 
+}
+  
+.m {
+    animation: bounce 1.5s ease infinite .6s;
+   -webkit-animation: bounce 1.5s ease infinite .6s;
+ 
+}
+
+.e2 {
+    animation: bounce 1.5s ease infinite .75s;
+   -webkit-animation: bounce 1.5s ease infinite .75s;
+
+}
+
+@keyframes bounce {
+    0%   { transform:  translateY(0); }
+    17%  { transform:  translateY(0); }
+    34%  { transform:    translateY(0);}
+    50%  { transform:  translateY(-13px); }
+    67%  { transform:  translateY(0); }
+    84%  { transform:  translateY(-2px);}
+    100% { transform:  translateY(0);}
+}
+
+@-webkit-keyframes bounce {
+    0%   { transform:  translateY(0); }
+    17%  { transform:  translateY(0); }
+    34%  { transform:    translateY(0);}
+    50%  { transform:  translateY(-13px); }
+    67%  { transform:  translateY(0);}
+    84%  { transform:  translateY(-2px);}
+    100% { transform:  translateY(0);} 
+}
