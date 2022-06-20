@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lora&family=Poppins&display=swap');
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <title>Rambler Hostel</title>
+</head>
+<body>
+    <!--NAV BAR -->
+    <nav>
+        <div class = "logo">
+            <h4>Rambler Hostel</h4>
+        </div>
+        <ul class = "nav_links">
+            <li>
+                <a href = "#">About</a>
+            </li>
+            <li>
+                <a href = "#">Facilities</a>
+            </li>
+            <li>
+                <a href = "#">Rooms</a>
+            </li>
+            <li>
+                <a href = "#">Contact</a>
+            </li>
+        </ul>
+
+        <div class = "burger">
+            <div class = "burger_line"></div>
+            <div class = "burger_line"></div>
+            <div class = "burger_line"></div>
+        </div>
+    </nav>
+
+    <!--ABOUT-->
+    <div class = "large_object" id = "about">
+
+        <div class = "about_left">
+            <div id = "about_txt">
+                <h1> Rambler <br> Hostel</h1>
+                <p> Situated in the heart of Thamel, Rambler Hostel </p>
+            </div>
+        </div>
+
+        <div class = "about_pics">
+            <div class="carousel-container">
+                <div class="mySlides animate">
+                  <img src="/images/hostel1.PNG"/>
+                 
+                </div>
+              
+                <div class="mySlides animate">
+                  <img src="/images/hostel2.jpg" />
+            
+                </div>
+              
+                <div class="mySlides animate">
+                  <img src="/images/hostel3.png"/>
+              
+                </div>
+              
+                <div class="mySlides animate">
+                  <img src="/images/hostel4.jpg"/>
+                 
+              
+                </div>  
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="prevSlide()">&#10094;</a>
+                <a class="next" onclick="nextSlide()">&#10095;</a>
+              
+                <!-- The dots/circles -->
+                <div class="dots-container">
+                  <span class="dots" onclick="currentSlide(1)"></span>
+                  <span class="dots" onclick="currentSlide(2)"></span>
+                  <span class="dots" onclick="currentSlide(3)"></span>
+                  <span class="dots" onclick="currentSlide(4)"></span>
+                 
+                </div>
+            </div>
+            <!--carousel container end-->
+
+        </div>
+        <!--about_pic end-->
+
+    </div>
+
+    <!--ROOMS-->
+    <div class = "large_object" id = "rooms">
+
+    </div>
+
+    <!--FACILITIES-->
+    <div class = "large_object" id = "facilities">
+        <div id = "fcts_txt">
+            <h1>Facilities</h1>
+            <ul>
+                <li>Internet Connection</li>
+                <li>Rooftop</li>
+                <li>Reading Light</li>
+                <li>Fan</li>
+                <li>Towels</li>
+                <li>Lockers</li>
+                <li>Laundry Service (paid)</li>
+
+            </ul>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
