@@ -78,23 +78,31 @@ nav{
     /*-----------NAVBAR-----------*/
 
     .nav_links{
-        overflow-x:hidden;
+        display: flex;
+        flex-direction:column;
         position:absolute;
         right:0px;
         width:40vw;
-        height:30vh;
+        height:0vh;
         top:8vh;
         background-color:rgb(96,0,0);
-        display:flex;
-        flex-direction:column;
         align-items:center;
-        transform:translateX(100%);
-        transition: transform 0.5s ease-in;
+        transition:1s;
+    }
+
+    .nav_links li{
+        display:none;
     }
     .burger{
         display:block;
     }
 }
 .nav_active{
-    transform:translateX(0%);
+    height:30vh;
+    transition: 1s;
+}
+
+.nav_active li{
+    display:initial;
+
 }
