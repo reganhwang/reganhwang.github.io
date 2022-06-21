@@ -78,6 +78,7 @@ nav{
     /*-----------NAVBAR-----------*/
 
     .nav_links{
+        overflow-x:hidden;
         position:absolute;
         right:0px;
         width:40vw;
