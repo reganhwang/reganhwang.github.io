@@ -22,8 +22,16 @@ nav{
 }
 
 .logo{
+    display:flex;
+    flex-direction:row;
     color:whitesmoke;
+    align-items:center;
+    cursor:pointer;
+}
 
+.logo img{
+    height:7vh;
+    width:auto;
 }
 
 .nav_links{
@@ -39,15 +47,15 @@ nav{
 .nav_links a{
     color:rgb(233, 233, 233);
     text-decoration:none;
-    transition:1s;
     padding: 4px 4px 4px 4px;
     border-radius:3px;
+    transition:1s;
 }
 
 .nav_links a:hover{
     background-color:whitesmoke;
     color:rgb(96, 0, 0);
-    transition:1s;
+    transition:ease-in 1s;
 }
 
 .burger{
@@ -67,6 +75,7 @@ nav{
     body{
         overflow-x:hidden;
     }
+    /*-----------NAVBAR-----------*/
 
     .nav_links{
         position:absolute;
